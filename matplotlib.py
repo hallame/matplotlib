@@ -1,34 +1,3 @@
-#
-#
-# task 1
-
-
-#2-1
-#
-# n = int(input('Enter the partial amount number:'))
-# sum = 0
-# while(n !=1):
-#     i = 1/(n*(n+1))
-#     sum += i
-#     n -= 1
-# print(sum)
-
-#2-2
-# import math
-# sum = 0.0
-# a = 1
-# y = float(input('Enter what accuracy:'))
-# sum1 = 1
-# while (sum1 > y):
-#     sum += (math.sqrt(a+1) / (a * math.exp(a)))
-#     a += 1
-#     sum1 = (math.sqrt(a+1) / (a * math.exp(a)))
-# print(sum)
-
-
-#task3
-
-
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -75,16 +44,9 @@ plt.show()
 # plt.grid(True)
 # plt.show()
 
+
+
 #task5
-
-
-
-
-
-
-
-#5-2
-
 # from random import randint
 # from operator import mul
 # from functools import reduce
@@ -109,27 +71,4 @@ plt.show()
 #     tmatrix[idx], tmatrix[idx - 1] = tmatrix[idx - 1], tmatrix[idx]
 # matrix = list(zip(*tmatrix))
 # mprint(matrix)
-
-
-
-
-#task 6
-#
-# FILENAME = "myFile.txt"
-# subjects = {}
-# try:
-#     with open(FILENAME, encoding='utf-8') as fh:
-#         lines = fh.readlines()
-#
-#     for line in lines:
-#         data = line.replace('(', ' ').split()
-#
-#         subjects[data[0][:-1]] = sum(
-#             int(i) for i in data if i.isdigit()
-#         )
-# except IOError as e:
-#     print(e)
-# except ValueError:
-# #     print("Inconsistent data")
-# # print(subjects)
 
