@@ -17,11 +17,10 @@ plt.xlabel('f', fontsize=20)
 plt.show()
 
 #task4
-#4-1
 
+#4-1
 # import matplotlib.pyplot as plt
 # import numpy as np
-#
 # vals = [48.6, 48.3, 1.99, 0.565, 0.543]
 # explode = (0, 0, 0, 0, 0)
 # labels = ['none', "towards data science", "the reality project", "noteworthy", "engeeniering"]
@@ -34,7 +33,6 @@ plt.show()
 # plt.show()
 
 #4-2
-
 # import numpy as np
 # import matplotlib.pyplot as plt
 # x = [10, 15, 20, 25, 30, 35]
@@ -71,4 +69,3 @@ plt.show()
 #     tmatrix[idx], tmatrix[idx - 1] = tmatrix[idx - 1], tmatrix[idx]
 # matrix = list(zip(*tmatrix))
 # mprint(matrix)
-
